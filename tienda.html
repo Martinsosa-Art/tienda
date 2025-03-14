@@ -1,0 +1,83 @@
+html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Ferrari</title>
+    <style>
+        body {
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background-color: #c8102e;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            
+        }
+        .product {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px 0;
+            background-color: white;
+            transform: translateY(20px);
+            opacity: 0;
+            animation: slide-up 0.5s forwards;
+        }
+        @keyframes slide-up {
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Tienda Oficial Ferrari</h1>
+    <a href="PROYEC70.html" class="nav">FERARRI</a>
+</header>
+
+<section>
+    <div class="product">
+        <h2>Ferrari F8 Tributo</h2>
+        <img src="descarga (5).jpg" alt="Ferrari F8 Tributo">
+        <p>Precio: $280,000</p>
+        <p>Descripción: El Ferrari F8 Tributo es un superdeportivo que combina potencia y elegancia.</p>
+    </div>
+
+    <div class="product">
+        <h2>Ferrari Roma</h2>
+        <img src="OIP (3).jpg" alt="Ferrari Roma">
+        <p>Precio: $220,000</p>
+        <p>Descripción: Un coupé que ofrece lujo y un rendimiento excepcional.</p>
+    </div>
+
+    <div class="product">
+        <h2>Ferrari SF90 Stradale</h2>
+        <img src="OIP (4).jpg" alt="Ferrari SF90 Stradale">
+        <p>Precio: $500,000</p>
+        <p>Descripción: Híbrido enchufable que redefine la experiencia de conducción.</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Tienda Ferrari. Todos los derechos reservados.</p>
+</footer>
+</body>
+</html>
